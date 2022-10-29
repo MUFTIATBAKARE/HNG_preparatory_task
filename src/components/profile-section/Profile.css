@@ -1,0 +1,28 @@
+.container{
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+#profile__img{
+    display: block;
+    margin: 20px auto;
+}
+.top h5{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+#twitter{
+    background-color: #EAECF0;
+    border-radius: 8px;
+    margin: 20px 120px;
+  }
+#slack{
+    display: none;
+  }
+  @media screen and (max-width: 375px) {
+     #twitter{
+        margin: auto 15px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}

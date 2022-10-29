@@ -1,0 +1,41 @@
+#btn__zuri{
+    background-color: #EAECF0;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin: 0px 120px;
+  }
+#books{ background-color: #EAECF0;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin: 40px 120px;
+}
+#book__python{
+    background-color: #EAECF0;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin: 30px 120px;
+}
+#pitch{
+    background-color: #EAECF0;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin: 40px 120px;
+}
+#book__design{
+    background-color: #EAECF0;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin: 30px 120px;
+}
+@media screen and (max-width: 375px) {
+    #book__design ,#pitch, #book__python, #books, #btn__zuri{
+        margin: auto 15px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
