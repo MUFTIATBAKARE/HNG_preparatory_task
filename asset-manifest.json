@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/HNG_preparatory_task/static/css/main.b15b9b7d.css",
+    "main.js": "/HNG_preparatory_task/static/js/main.86252315.js",
+    "static/media/i4g.png": "/HNG_preparatory_task/static/media/i4g.65a3912041c5e33912bf.png",
+    "static/media/profilepic.jpg": "/HNG_preparatory_task/static/media/profilepic.6b140e68de48295bfc29.jpg",
+    "static/media/Vector.svg": "/HNG_preparatory_task/static/media/Vector.fe365f435ac709b515e1114cc859cdb6.svg",
+    "static/media/slack.svg": "/HNG_preparatory_task/static/media/slack.a405c881a9b1faa4d6dbce8e23f4b4b8.svg",
+    "static/media/Icon.svg": "/HNG_preparatory_task/static/media/Icon.6a40f212828370260b880b93f8d36b56.svg",
+    "static/media/VEC.svg": "/HNG_preparatory_task/static/media/VEC.e44f6800260ea9fd258145d5b2cd861c.svg",
+    "index.html": "/HNG_preparatory_task/index.html",
+    "main.b15b9b7d.css.map": "/HNG_preparatory_task/static/css/main.b15b9b7d.css.map",
+    "main.86252315.js.map": "/HNG_preparatory_task/static/js/main.86252315.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b15b9b7d.css",
+    "static/js/main.86252315.js"
+  ]
+}
