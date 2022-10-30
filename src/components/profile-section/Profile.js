@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+import { CiCircleMore } from "react-icons/ci"
+import { RiShareForwardLine } from "react-icons/ri"
 import Profilepic from '../../assets/profilepic.jpg'
 import './Profile.css'
 
@@ -6,6 +8,10 @@ class Profile extends Component {
     render() {
       return (
         <div className='container'>
+          <div className='topicon'>
+            <CiCircleMore className='moreIcon'/>
+            <RiShareForwardLine className='shareIcon'/>
+          </div>
           <div className="top">
             <img src={Profilepic} alt="/" id="profile__img"/>
             <h5>Annette Black</h5>

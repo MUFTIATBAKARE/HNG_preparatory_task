@@ -39,7 +39,7 @@
 }
 @media only screen and (max-width: 375px) {
     .logo{
-        margin-bottom: 20px;
+        margin-bottom: 70px;
     }
     .zuri_hng{
         display: block;
@@ -53,7 +53,7 @@
         text-align: left;
     }
     #i4g{
-        width: 60px;
+        width: 99.1px;
         height: 24px;
         margin-left: 0;
     }

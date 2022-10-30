@@ -33,8 +33,14 @@
     margin: 30px 120px;
 }
 @media screen and (max-width: 375px) {
-    #book__design ,#pitch, #book__python, #books, #btn__zuri{
-        margin: auto 15px;
+    #book__design ,#pitch, #book__python, #books{
+        margin: 30px 15px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    #btn__zuri{
+        margin-left: 15px;
+        margin-right: 15px;
         font-size: 14px;
         font-weight: 500;
     }
