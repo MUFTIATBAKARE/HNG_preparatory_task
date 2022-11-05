@@ -1,0 +1,94 @@
+.content{
+    width:50%;
+    margin:auto;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+}
+.text-danger{
+    color: red;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+input[type=text], textarea, button{
+    width: 100%;
+    align-items: stretch;
+    padding: 12px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+input[type=text]:hover{
+    border: 2px solid #84CAFF;
+}
+textarea :hover{
+    border: 2px solid #D0D5DD;
+}
+.head h2{
+    font-size: 36px;
+}
+.head p{
+    font-size: 20px;
+}
+input[type=text]{
+    font-size: 22px;
+}
+
+button{
+    background-color: #1570EF;
+    border: 1px solid #1570EF;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 30px;
+}
+button:hover{
+    border: 2px solid #B2DDFF;
+    background-color: #B2DDFF;
+}
+textarea{
+    height: 150px;
+}
+.check{
+    font-size: 18px;
+    padding: 6px;
+}
+#check{
+    margin-top: 12px;
+}
+@media screen and (max-width: 600px){
+    .content{
+    width: 90%;
+    margin: 0;
+    }
+    .name{
+        display: block;
+    }
+    
+}
+@media screen and (max-width: 375px){
+    .content{
+    width: 90%;
+    margin-left: 15px;
+    }
+    .name{
+        display: block;
+    }
+    .divide{
+        display: flex;
+        flex-direction: row;
+    }
+    .check{
+        font-size: 14px;
+        padding: 12px;
+    }
+    .head p{
+        font-size: 16px;
+    }
+}
