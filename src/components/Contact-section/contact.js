@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import './contact.css'
 
+
 function Contact() {
-    
+   
+
     const [formvalue, setFormvalue] = useState({ message:''})
     const [formerror, setFormerror] = useState({})
     const [issubmit, setSubmit] = useState(false)
@@ -46,14 +48,18 @@ return (
             <form onSubmit={ handlesubmit} >
                 <div className="name">
                     <div className="first" >
+                        <div>
                         <label>First name</label>
+                        </div>
                         <div>
                         <input type="text" id="first_name" placeholder="Enter your first name" name="name"  />
                         </div>
                     </div>
 
                     <div className="last" >
+                        <div>
                         <label>Last name</label>
+                        </div>
                         <div>
                         <input type="text" id="last_name" placeholder="Enter your last name" name="name"  />
                         </div>

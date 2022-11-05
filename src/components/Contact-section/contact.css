@@ -5,12 +5,21 @@
 .name{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
-    width: 100%;
+    
+}
+.first{
+    display: block;
+    width: 50%;
+    margin-right: 12px;
+}
+.last{
+    display: block;
+    width: 50%;
+    margin-left: 12px;
 }
 .text-danger{
     color: red;
-    font-size: 20px;
+    font-size: 12px;
     padding-top: 5px;
     padding-bottom: 8px;
 }
@@ -26,19 +35,41 @@ input[type=text], textarea, button{
 input[type=text]:hover{
     border: 2px solid #84CAFF;
 }
-textarea :hover{
-    border: 2px solid #D0D5DD;
-}
-.head h2{
-    font-size: 36px;
-}
-.head p{
-    font-size: 20px;
-}
-input[type=text]{
-    font-size: 22px;
-}
 
+
+input[type=text]{
+    border: 1px solid #d0d5dd;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+	border-radius: 8px;
+	padding: 10px 14px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #667085;
+    outline: none;
+}
+input::placeholder, textarea::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
+input[type=checkbox]{
+    border: 1px solid #d0d5dd;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    font-size: 25px;
+    outline: none;
+}
+input[type=checkbox]:checked{
+    background-color:  #FFFFFF;
+    border: 1px solid #d0d5dd
+}
+input[type=checkbox]:focus{
+    border: 1px solid #84caff;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #d1e9ff;
+}
 button{
     background-color: #1570EF;
     border: 1px solid #1570EF;
@@ -49,11 +80,42 @@ button{
     margin-top: 30px;
 }
 button:hover{
-    border: 2px solid #B2DDFF;
-    background-color: #B2DDFF;
+    background: #175cd3;
+	border: 1px solid #175cd3;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+button:focus {
+	background: #1570ef;
+	border: 1px solid #1570ef;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #d1e9ff;
 }
 textarea{
     height: 150px;
+    border: 1px solid #d0d5dd;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+	border-radius: 8px;
+	padding: 10px 14px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #667085;
+    outline: none;
+    resize: none;
+}
+textarea:focus{
+    border: 1px solid #84caff;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #d1e9ff;
+	transition: 0.5s;
+}
+textarea:hover{
+    border: 2px solid #D0D5DD;
+}
+.head h2{
+    font-size: 36px;
+}
+.head p{
+    font-size: 20px;
 }
 .check{
     font-size: 18px;
@@ -61,6 +123,13 @@ textarea{
 }
 #check{
     margin-top: 12px;
+}
+.message {
+    background: #fff;
+    color: #84ff9f;
+    font-size: 20px;
+    width: 40vw;
+    padding: 4px;
 }
 @media screen and (max-width: 600px){
     .content{
