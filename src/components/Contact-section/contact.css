@@ -149,6 +149,17 @@ textarea:hover{
     .name{
         display: block;
     }
+    .first, .last{
+        width: 100%;
+        
+    }
+    .first{
+        margin-right: 0;
+    }
+    .last{
+        margin-left: 0;
+    }
+    
     .divide{
         display: flex;
         flex-direction: row;
