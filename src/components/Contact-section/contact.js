@@ -44,7 +44,11 @@ return (
             <p>Hi there, contact me to ask about anything you have in mind.</p>
         </div>
         <div className="form-container">
-        
+        {Object.keys(formerror).length === 0 && issubmit ? (
+        <div className="message">Sent!</div>
+      ) : (
+        <pre>{JSON.stringify(formvalue, undefined, 2)}</pre>
+      )}
             <form onSubmit={ handlesubmit} >
                 <div className="name">
                     <div className="first" >
