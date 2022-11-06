@@ -33,7 +33,7 @@ class Data extends Component {
             </div>
             <div id="contact">
                 <p>
-                    <Link  to='/cfontact'>Contact Me</Link>
+                    <Link  to='/contact'>Contact Me</Link>
                 </p>
             </div>
         </div>
